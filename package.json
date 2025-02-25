@@ -1,0 +1,17 @@
+{
+  "name": "slack-profile-to-pptx",
+  "version": "1.0.0",
+  "description": "Script to fetch Slack users' profiles and create PowerPoint slides",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "validate": "node validate-config.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.8.1",
+    "pptxgenjs": "^3.12.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
+}
